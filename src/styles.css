@@ -1,0 +1,101 @@
+.dropdown-menu{
+    transition: 1s;
+}
+
+nav{
+    background-image: radial-gradient(circle at 44.43% -13.63%, #009bab 0, #009cc2 3.33%, #009cd8 6.67%, #009bec 10%, #009afe 13.33%, #0098ff 16.67%, #0096ff 20%, #0092ff 23.33%, #008eff 26.67%, #0088ff 30%, #0081ff 33.33%, #0078ff 36.67%, #006dff 40%, #6360ff 43.33%, #9350ff 46.67%, #b53cf2 50%, #cf1ddf 53.33%, #e300ca 56.67%, #f200b4 60%, #fe009d 63.33%, #ff0086 66.67%, #ff0070 70%, #ff0059 73.33%, #ff0043 76.67%, #ff002c 80%, #f80010 83.33%, #ee2500 86.67%, #e23e00 90%, #d44f00 93.33%, #c45d00 96.67%, #b46900 100%);
+    z-index: 1000;
+}
+
+.video2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-link{
+    border-radius: 0px;
+    transition: 1s;
+    background-color: transparent;
+}
+
+.nav-link:hover{
+    border-radius: 12px;
+    transition: 1s;
+    background-color: purple;
+}
+.dropdown-item:hover{ 
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.dropdown-menu.show{
+    background-image: radial-gradient(circle at 44.43% -13.63%, #009bab 0, #009cc2 3.33%, #009cd8 6.67%, #009bec 10%, #009afe 13.33%, #0098ff 16.67%, #0096ff 20%, #0092ff 23.33%, #008eff 26.67%, #0088ff 30%, #0081ff 33.33%, #0078ff 36.67%, #006dff 40%, #6360ff 43.33%, #9350ff 46.67%, #b53cf2 50%, #cf1ddf 53.33%, #e300ca 56.67%, #f200b4 60%, #fe009d 63.33%, #ff0086 66.67%, #ff0070 70%, #ff0059 73.33%, #ff0043 76.67%, #ff002c 80%, #f80010 83.33%, #ee2500 86.67%, #e23e00 90%, #d44f00 93.33%, #c45d00 96.67%, #b46900 100%);
+}
+
+
+.card-body{
+    transition: 1s;
+    background-color: gray;
+    color: white;
+}
+
+.card-body:hover{
+    transition: 2s;
+    background-color: white;
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.main2{
+    width: 100%;
+    height: 100%;
+}
+
+
+.videoinicio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html{
+    background-image: url(./img/pngtree-nike-running-shoes-on-black-background-with-colorful-splashes-image_2671040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+h1{
+    background-color: black;
+    
+}
+
+body{
+    background-image: url(./img/pngtree-nike-running-shoes-on-black-background-with-colorful-splashes-image_2671040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
